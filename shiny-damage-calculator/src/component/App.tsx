@@ -32,7 +32,7 @@ const App: React.FC = () => {
             <a className='ml-2' href='https://twitter.com/YSRKEN'>作者Twitter</a>
           </div>
           <div className='text-center'>
-          	+Ver 0.1.2 
+          	+Ver 0.1 
             <a className='ml-1' href='https://shiny-calc-kor.firebaseapp.com'>한글화 및 기능추가 : 유동</a>
           </div>
           <p className='text-center my-1'>

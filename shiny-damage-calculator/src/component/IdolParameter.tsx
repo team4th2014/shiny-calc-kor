@@ -57,7 +57,7 @@ export const IdolParameter: React.FC<{produce?: boolean, index?: number}> = ({pr
   }
 
   return (
-    <FormGroup className='d-flex m-3'>
+    <FormGroup className='d-flex m-2'>
       <FormControl className='mx-1' type='text' placeholder={produce ? `p${idolWord()}` : `s${index+1}${idolWord()}`}
         defaultValue={defaultName()} onChange={onChangeName}/>
       <FormControl className='mx-1' type='text' placeholder='Vo' defaultValue={defaultValue('vo')} onChange={onChangeVo}/>
