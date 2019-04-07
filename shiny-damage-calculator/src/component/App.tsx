@@ -24,15 +24,19 @@ const App: React.FC = () => {
     <AppContext.Provider value={{'state': state, dispatch: (action: IAction) => reduce(state, setState, action)}}>
       <Row>
         <Col className='mx-auto' xs={12} sm={8} md={6}>
-          <h1 className='text-center d-none d-sm-block my-3'>シャニマス火力計算機</h1>
-          <h2 className='text-center d-xs-block d-sm-none my-3'>シャニマス火力計算機</h2>
-          <div className='text-center my-3'>
+          <h3 className='text-center d-none d-sm-block my-2'>샤니마스 어필계산기</h3>
+          <h4 className='text-center d-xs-block d-sm-none my-2'>샤니마스 어필계산기</h4>
+          <div className='text-center my-2'>
             Ver.0.6.0
-            <a className='ml-3' href='https://github.com/YSRKEN/shiny_damage_calculator'>GitHubへのリンク</a>
-            <a className='ml-3' href='https://twitter.com/YSRKEN'>作者Twitter</a>
+            <a className='ml-2' href='https://github.com/YSRKEN/shiny_damage_calculator'>GitHubへのリンク</a>
+            <a className='ml-2' href='https://twitter.com/YSRKEN'>作者Twitter</a>
           </div>
-          <p className='text-center my-3'>
-            注意：ダメージ計算式には未解明の箇所もあるため<strong>計算誤差が存在します</strong>
+          <div className='text-center'>
+          	+Ver 0.1.2 
+            <a className='ml-1' href='https://shiny-calc-kor.firebaseapp.com'>한글화 및 기능추가 : 유동</a>
+          </div>
+          <p className='text-center my-1'>
+            주의 : 본 계산식은 오차가 있을 수 있습니다.
           </p>
           <Form className='border'>
             <IdolParameterForm/>

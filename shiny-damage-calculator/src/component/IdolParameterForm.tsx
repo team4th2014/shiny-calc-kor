@@ -4,7 +4,7 @@ import { IdolParameter } from './IdolParameter';
 
 export const IdolParameterForm: React.FC = () => (
   <details className='border p-1'>
-    <summary>アイドルのステータス</summary>
+    <summary>아이돌 스탯</summary>
     <IdolParameter/>
     {
       range(4).map(i => (

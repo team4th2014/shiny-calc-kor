@@ -23,18 +23,18 @@ export interface IAppState {
 
 // Stateの初期値
 export const DEFAULT_STATE: IAppState = {
-  pIdolStatus: {vo: 500, da: 150, vi: 150},
+  pIdolStatus: {vo: 150, da: 150, vi: 550},
   sIdolStatus: [
-    {vo: 150, da: 150, vi: 150},
-    {vo: 150, da: 150, vi: 150},
-    {vo: 150, da: 150, vi: 150},
-    {vo: 150, da: 150, vi: 150}
+    {vo: 138, da: 138, vi: 180},
+    {vo: 164, da: 164, vi: 180},
+    {vo: 125, da: 156, vi: 188},
+    {vo: 118, da: 118, vi: 184}
   ],
   // tslint:disable-next-line:object-literal-sort-keys
   memorialOption: 2,
   auditionWeek: 33,
   buffValue: {vo: 0, da: 0, vi: 0},
-  appealTarget: 'vo',
+  appealTarget: 'vi',
   cardMultiple: 20,
   pIdolName: '',
   sIdolName: ['', '', '', '']

@@ -1,6 +1,6 @@
 import { AppealTarget, IAction, IAppState } from './state';
 
-export const LOCAL_KEY = 'shiny-damage-calculator_state';
+export const LOCAL_KEY = 'shiny-calc-kor_state';
 
 export const reduce = (state: IAppState, setState: (s: IAppState) => void, action: IAction) => {
   const newState: IAppState = JSON.parse(JSON.stringify(state));

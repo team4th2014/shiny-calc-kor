@@ -1,1 +1,64 @@
-shiny-damage-calculator/.firebase/
+
+# ignore all files starting with . or ~
+.*
+~*
+
+# ignore node/grunt dependency directories
+node_modules/
+
+# ignore composer vendor directory
+/vendor
+
+# ignore components loaded via Bower
+/bower_components
+
+# ignore jekyll build directory
+/_site
+
+# ignore react build directory
+/build
+
+# ignore debug directory
+/_debug
+
+# ignore OS generated files
+ehthumbs.db
+Thumbs.db
+
+# ignore Editor files
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+
+# track these files, if they exist
+!.gitignore
+!.editorconfig
+!.phpcs.xml.dist
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# ignore compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# ignore packaged files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# etc
+#*.bat
+#*.exe
+DevelopDiary.txt
