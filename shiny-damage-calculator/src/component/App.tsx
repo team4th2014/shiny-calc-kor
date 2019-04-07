@@ -33,7 +33,7 @@ const App: React.FC = () => {
           </div>
           <div className='text-center'>
           	+Ver 0.1 
-            <a className='ml-1' href='https://shiny-calc-kor.firebaseapp.com'>한글화 및 기능추가 : 유동</a>
+            <a className='ml-1' href='https://gall.dcinside.com/mgallery/board/view/?id=shinycolors&no=60628'>한글화 및 기능추가 : 유동</a>
           </div>
           <p className='text-center my-1'>
             주의 : 본 계산식은 오차가 있을 수 있습니다.
